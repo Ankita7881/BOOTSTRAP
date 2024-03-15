@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <style>
+        #A {
+            background-color: #b3f1f1;
+            height: 650px;
+            width: 100%;
+            border-bottom-right-radius: 80%;
+            border-top-right-radius: 80%;
+            box-shadow: 5px 5px 15px black;
+        }
+
+        #B {
+            font-size: 50px;
+            margin-left: 150px;
+            margin-top: 150px;
+            font-weight: bold;
+        }
+
+        #B1 {
+            width: 550px;
+            text-align: center;
+            color: purple;
+            font-size: 20px;
+
+        }
+
+        #B2 {
+            width: 550px;
+            text-align: center;
+            color: purple;
+            font-size: 20px;
+
+        }
+
+        #B3 {
+            width: 550px;
+            text-align: center;
+            color: purple;
+            font-size: 20px;
+
+        }
+
+        #B4 {
+            width: 550px;
+            text-align: center;
+            color: purple;
+            font-size: 20px;
+
+        }
+
+        #C {
+            height: 500px;
+            width: 600px;
+            margin-left: 200px;
+            margin-top: 50px;
+        }
+
+        #D {
+            font-size: 40px;
+            color: rgb(11, 11, 180);
+            text-align: center;
+            font-weight: bold;
+            background-color: pink;
+            width: 500px;
+            margin-left: 500px;
+            box-shadow: 9px 9px 10px peachpuff;
+        }
+
+        #D1 {
+            background-color: plum;
+            height: 350px;
+            width: 250px;
+            margin-left: 100px;
+        }
+
+        #D1:hover {
+            cursor: pointer;
+            transform: scale(1.1);
+            box-shadow: 9px 9px 15px black;
+        }
+
+        #D2 {
+            font-size: 25px;
+            font-weight: bold;
+            text-align: center;
+
+        }
+
+        #D3 {
+            font-size: 20px;
+            text-align: center;
+            width: 200px;
+            margin-left: 20px;
+        }
+
+        #E1 {
+            background-color: plum;
+            height: 350px;
+            width: 250px;
+            margin-left: 450px;
+            margin-top: -350px;
+        }
+
+        #E1:hover {
+            cursor: pointer;
+            transform: scale(1.1);
+            box-shadow: 9px 9px 15px black;
+        }
+
+        #E2 {
+            font-size: 25px;
+            font-weight: bold;
+            text-align: center;
+
+        }
+
+        #E3 {
+            font-size: 20px;
+            text-align: center;
+            width: 200px;
+            margin-left: 20px;
+        }
+
+
+        #F1 {
+            background-color: plum;
+            height: 350px;
+            width: 250px;
+            margin-left: 800px;
+            margin-top: -350px;
+        }
+
+        #F1:hover {
+            cursor: pointer;
+            transform: scale(1.1);
+            box-shadow: 9px 9px 15px black;
+        }
+
+        #F2 {
+            font-size: 25px;
+            font-weight: bold;
+            text-align: center;
+
+        }
+
+        #F3 {
+            font-size: 20px;
+            text-align: center;
+            width: 200px;
+            margin-left: 20px;
+        }
+
+
+        #G1 {
+            background-color: plum;
+            height: 350px;
+            width: 250px;
+            margin-left: 1150px;
+            margin-top: -350px;
+        }
+
+        #G1:hover {
+            cursor: pointer;
+            transform: scale(1.1);
+            box-shadow: 9px 9px 15px black;
+        }
+
+        #G2 {
+            font-size: 25px;
+            font-weight: bold;
+            text-align: center;
+
+        }
+
+        #G3 {
+            font-size: 20px;
+            text-align: center;
+            width: 200px;
+            margin-left: 20px;
+        }
+
+        #X {
+            box-shadow: 7px 7px 15px black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- <div class="row" id="X">
+            <div class="col-sm-12 p-0">
+
+                <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home🏠<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Gallery<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">
+                                    Services
+                                </a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link disabled" href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </div>
+                </nav>
+
+
+            </div>
+        </div> -->
+        <br>
+        <div class="row">
+
+            <div class="col-sm-5" id="A">
+                <div id="B">Web<br> Design</div>
+                <br><br><br>
+                <div id="B1">Web designing is the process of planning, conceptualizing, </div>
+                <div id="B2">and implementing the plan for designing a website </div>
+                <div id="B3">in a way that is functional and offers a good.</div>
+                <div id="B4"> user experience</div>
+            </div>
+
+            <div class="col-sm-7">
+
+                <img src="wimg20.gif" id="C">
+
+            </div>
+
+        </div>
+
+
+        <br><br>
+        <div class="row">
+            <div class="col-sm-12 p-0">
+
+                <div id="D">Web design process</div>
+                <br><br><br>
+
+                <div id="D1">
+                    <div id="D2">Strategy and planning</div>
+                    <br>
+                    <div id="D3">This includes creating a detailed web plan outlining the goals and requirements of
+                        the website and creating wireframes or prototypes that depict the user journey.</div>
+                </div>
+
+
+                <div id="E1">
+                    <div id="E2">Copywriting </div>
+                    <br>
+                    <div id="E3">Writing copy early in the web design process promotes alignment and collaboration
+                        between copywriters and designers, which results in clear and effective storytelling.</div>
+                </div>
+
+                <div id="F1">
+                    <div id="F2">User interface (UI) design </div>
+                    <br>
+                    <div id="F3">UI design is what the user sees and can click on. UI designers combine all of the
+                        design elements we listed above to deliver a positive user experience.</div>
+                </div>
+
+
+                <div id="G1">
+                    <div id="G2">Development</div>
+                    <br>
+                    <div id="G3"> Once designs have been created, it’s time to bring them to life with code through
+                        development.ce.</div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>

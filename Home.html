@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <style>
+        #A {
+            font-size: 50px;
+            text-align: center;
+            margin-top: 30px;
+            font-weight: bold;
+        }
+
+        #A1 {
+            font-size: 20px;
+            text-align: start;
+            width: 1100px;
+            margin-left: 200px;
+        }
+
+        #A2 {
+            height: 500px;
+            width: 600px;
+            background-color: beige;
+            border-top-left-radius: 50%;
+            border-top-right-radius: 50%;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+            margin-left: 40px;
+            margin-top: -30px;
+            box-shadow: 4px 4px 5px black;
+        }
+
+
+        #A3 {
+            width: 500px;
+            font-size: 20px;
+            text-align: center;
+            margin-left: 90px;
+            margin-top: -350px;
+        }
+
+        #A4 {
+            font-size: 40px;
+            margin-left: 200px;
+        }
+
+        #B2 {
+            height: 500px;
+            width: 600px;
+            background-color: rgb(215, 248, 248);
+            border-top-left-radius: 50%;
+            border-top-right-radius: 50%;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+            margin-left: 80px;
+            box-shadow: 4px 4px 5px black;
+            margin-top: -40px;
+
+        }
+
+        #B3 {
+            width: 500px;
+            font-size: 20px;
+            text-align: center;
+            margin-left: 130px;
+            margin-top: -350px;
+        }
+
+        #C2 {
+            height: 500px;
+            width: 600px;
+            background-color: rgb(215, 248, 248);
+            border-top-left-radius: 50%;
+            border-top-right-radius: 50%;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+            margin-left: 30px;
+            margin-top: -30px;
+            box-shadow: 4px 4px 5px black;
+        }
+
+        #C3 {
+            width: 500px;
+            font-size: 20px;
+            text-align: center;
+            margin-left: 100px;
+            margin-top: -350px;
+        }
+
+
+        #D2 {
+            height: 500px;
+            width: 600px;
+            background-color: rgb(215, 248, 248);
+            border-top-left-radius: 50%;
+            border-top-right-radius: 50%;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+            margin-left: 80px;
+            margin-top: -50px;
+            box-shadow: 4px 4px 5px black;
+        }
+
+        #D3 {
+            width: 500px;
+            font-size: 20px;
+            text-align: center;
+            margin-left: 130px;
+            margin-top: -380px;
+        }
+
+        #X1:hover {
+            cursor: pointer;
+            transform: scale(1.1);
+            box-shadow: 9px 9px 15px black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 p-0">
+
+
+                <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="Home.html">Home🏠<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="Gallery.html">Gallery<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="About.html">About Us</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">
+                                    Services
+                                </a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link disabled" href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="A">Web Development</div>
+                <br><br>
+
+                <div id="A1">Web development refers to the creating, building, and maintaining of websites. It includes
+                    aspects
+                    such as web design, web publishing, web programming, and database management. It is the creation of
+                    an application that works over the internet i.e. websites.Web development is the work involved in
+                    developing a website for the Internet (World Wide Web) or an intranet (a private network).Web
+                    development can range from developing a simple single static page of plain text to complex web
+                    applications, electronic businesses, and social network services. A more comprehensive list of tasks
+                    to which Web development commonly refers, may include Web engineering, Web design, Web content
+                    development, client liaison, client-side/server-side scripting, Web server and network security
+                    configuration, and e-commerce development.</div>
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col-sm-12 p-0">
+                <img src="w24.jpg" alt="..." class="rounded" width="100%">
+            </div>
+        </div>
+        <hr>
+        <br>
+        <div class="row">
+            <div class="col-sm-12 p-0">
+                <div id="A" style="margin-left: -300px;">The 3 Web Development Types</div>
+            </div>
+        </div>
+
+        <br><br><br><br>
+        <div class="row">
+            <div class="col-sm-6 p-0">
+                <div id="A2"></div>
+                <p id="A3">To make things less complicated, web development is categorized into three expertise. And
+                    that is
+                    what we aim to discuss thoroughly below. With all languages, frameworks, and libraries relevant
+                    to
+                    these categories, here is all that you need to know.
+                </p>
+
+            </div>
+
+            <div class="col-sm-6 p-0">
+                <img src="w25.png" alt="..." class="rounded" height="400px" width="700px" id="X1">
+            </div>
+
+        </div>
+
+        <br><br><br><br><br><br>
+        <hr>
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="A4">Front-End Web Development</div>
+            </div>
+        </div>
+
+        <br><br><br>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="w29.webp" alt="..." class="rounded" height="400px" width="700px" id="X1">
+            </div>
+            <div class="col-sm-6">
+                <div id="B2"></div>
+                <p id="B3">Front-end development tools and technologies are highly dynamic. As much as this sounds
+                    positive,
+                    this can result in a challenging scenario when finding the right skilled front-end developer.
+                    The
+                    languages, frameworks, and libraries used for front-end development are mostly specific and
+                    limited
+                    to coding for the UI.</p>
+
+            </div>
+        </div>
+
+        <br><br><br><br>
+        <hr>
+
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="A4">Back-End Web Development</div>
+            </div>
+        </div>
+
+        <br><br><br>
+
+        <div class="row">
+
+            <div class="col-sm-6">
+                <div id="C2"></div>
+                <p id="C3">A back-end developer, other than being proficient in coding, should have excellent
+                    analytical
+                    and problem-solving skills along with a holistic understanding of the tech industry dynamic.
+                    Since
+                    back-end development is deeply rooted and detailed, it is always recommended to hire a dedicated
+                    back-end developer for the back-end development needs of any project.</p>
+
+            </div>
+            <div class="col-sm-6">
+                <img src="w26.png" alt="..." class="rounded" height="400px" width="700px" id="X1">
+            </div>
+
+        </div>
+
+        <br><br><br><br>
+        <hr>
+
+        <div class="row">
+            <div class="col-sm-12">
+
+                <div id="A4">Full Stack Web Development</div>
+            </div>
+        </div>
+
+        <br><br><br>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="w28.webp" alt="..." class="rounded" height="400px" width="700px" id="X1">
+            </div>
+
+            <div class="col-sm-6">
+                <div id="D2"></div>
+                <p id="D3">
+                    Full stack development is the process of designing, creating, testing, and deploying a complete
+                    web application from start to finish. It involves working with various technologies and tools,
+                    including front-end web development, back-end web development, and database development. And
+                    full stack development is a term used to describe a software engineer or developer who works
+                    with both the front and back end of a website or application.
+                </p>
+
+            </div>
+        </div>
+
+        <br><br><br>
+        <hr>
+
+
+    </div>
+</body>
+
+</html>

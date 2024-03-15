@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title> Bootstrap 4 Login Form Example
+  </title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+<style>
+  .container {
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgb(148, 236, 207), rgb(167, 230, 209), rgb(137, 206, 233), rgb(215, 167, 175), rgb(243, 144, 243), rgb(228, 137, 168));
+    border: 1px solid black;
+    background-color: aquamarine;
+  }
+
+  form {
+    font-size: 14px;
+
+  }
+
+  .card-title {
+    font-weight: 300px;
+    color: rgb(161, 42, 161);
+  }
+
+  .btn {
+    font-size: 14px;
+    background: linear-gradient(rgb(18, 149, 201), purple);
+    color: white;
+  }
+
+  .login-form {
+    width: 350px;
+    background: linear-gradient(white, pink);
+    box-shadow: 15px 15px 20px gray, -4px -4px 4px wheat inset;
+  }
+
+  .sign-up {
+    text-align: center;
+
+
+  }
+
+  .alert {
+    font-size: 13px;
+
+  }
+
+  #A {
+    color: whitesmoke;
+    box-shadow: 4px 4px 4px gray -4px -4px 4px pink;
+  }
+
+   .card-body:hover {
+    background-color: pink;
+    
+  }
+
+
+</style>
+
+<body>
+  <div class="pt-5">
+    <div class="container">
+      <div class="card login-form">
+        <div class="card-body" id="B">
+          <h3 class="card-title text-center"> Welcome Back </h3><br>
+          <div class="card-text">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1"> Enter Email address </label>
+                <input type="email" class="form-control form-control-sm" id="exampleInputEmail1"
+                  aria-describedby="emailHelp" id="A">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Enter Password </label>
+                <input type="password" class="form-control form-control-sm" id="exampleInputPassword1" id="A">
+
+                <a href="#" style="float:right;font-size:12px;"> Forgot password? </a>
+              </div><br>
+              <button type="submit" class="btn btn-primary btn-block"> Sign in </button>
+
+              <div class="sign-up"><br>
+                Don't have an account? <a href="#"> Create One </a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+
+</html>
